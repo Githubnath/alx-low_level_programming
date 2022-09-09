@@ -4,26 +4,27 @@
  * main - Entry point for me
  * Return: Always 0 (Success/completed)
  */
-
 int main(void)
 {
-	int number_left;
-	int number_right;
+	  int i, j, k;
 
-	for (number_left = 48; number_right <= 78; number_left++)
+	    i = 0;
+	while (i < 100)
 	{
-		for (number_right = number_left + 1 ; number_right <= 78; number_right++)
-		{
-			putchar(number_left);
-			putchar (number_right);
-			if ((number_left == 56) && (number_right == 78))
-			{
-				break;
-			}
-			putchar(',');
-			putchar (' ');
-		}
+	j = i % 10;
+	k = i / 10;
+	if (k < j)
+	{
+	putchar (k + '0');
+	putchar (j + '0');
+	if  (i < 89)
+	{
+	putchar (44);
+	putchar (32);
 	}
-	putchar('\n');
+	}
+	i++;
+	}
+	putchar ('\n');
 	return (0);
 }
