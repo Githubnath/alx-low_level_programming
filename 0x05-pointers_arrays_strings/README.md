@@ -1,24 +1,40 @@
 C - Pointers, arrays and strings
 
 
-File 0-strcat.c is a function that concatenates two strings.
+0-reset_to_98.c :- takes a pointer to an int as parameter and updates the value it points to to 98
 
-File 1-strncat.c is a function that concatenates two strings that will use at most n bytes from src.
 
-File 2-strncpy.c is a function that copies a string.
+1-swap.c :- a function that swaps the values of two integers.
 
-File 3-strcmp.c is a function that compares two strings.
 
-File 4-rev_array.c a function that reverses the content of an array of integers.
+2-strlen.c :- a function that returns the length of a string.
 
-File 5-string_toupper.c is a function that changes all lowercase letters of a string to uppercase.
 
-File 6-cap_string.c is a function that capitalizes all words of a string.
+3-puts.c :-  a function that prints a string, followed by a new line, to stdout.
 
-File 7-leet.c is a function that encodes a string into 1337.
 
-File 8-rot13.c is a function that encodes a string using rot13.
+4-print_rev.c :- a function that prints a string, in reverse, followed by a new line.
 
-File _putchar.c is a function that replaces the standard library function putchar().
 
-File main.h is the header file containing all the function prototypes.
+5-rev_string.c :- a function that reverses a string.
+
+
+6-puts2.c :-  a function that prints every other character of a string, starting with the first character, followed by a new line.
+
+
+7-puts_half.c :- a function that prints half of a string, followed by a new line.
+
+
+8-print_array.c :-  a function that prints n elements of an array of integers, followed by a new line.
+
+
+9-strcpy.c :- a function that copies the string pointed to by src, including the terminating null byte (\0), to the buffer pointed to by dest.
+
+
+100-atoi.c :-  a function that convert a string to an integer.
+
+
+101-keygen.c :- a program that generates random valid passwords for the program 101-crackme.
+
+
+main.h is the header file containing all the function prototypes.
