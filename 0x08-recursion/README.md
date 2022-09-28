@@ -16,4 +16,4 @@ File 7-is_palindrome.c is a function that returns 1 if a string is a palindrome 
 
 File 100-wildcmp.c is a function that compares two strings and returns 1 if the strings can be considered identical, otherwise return 0. It uses the concept of wildcards.
 
-File main.h is the header file containing the function prototypes
+File main.h is the header file containing the function prototypes.
